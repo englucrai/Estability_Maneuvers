@@ -1,0 +1,334 @@
+
+======================================
+=           VI/CarRealTime           =
+=      VEHICLE SETUP STATUS REPORT   =
+======================================
+
+Assembly/Design Condition
+
+## SIMULATION TIME    = 0.000000
+
+## MODEL UNITS        :
+## LENGTH             = METER
+## MASS               = KILOGRAM
+## TIME               = SECOND
+## FORCE              = NEWTON
+## ANGLE              = RADIAN
+
+<> VEHICLE GLOBAL CONDITIONS :
+>> VEHICLE CG ABS X   = -1.267548
+>> VEHICLE CG ABS Y   = -0.000026
+>> VEHICLE CG HEIGHT  = 0.616241
+>> VEHICLE INERTIA IXX   = 1028.327444
+>> VEHICLE INERTIA IYY   = 4187.545896
+>> VEHICLE INERTIA IZZ   = 4630.129370
+>> VEHICLE INERTIA IXY   = 0.141374
+>> VEHICLE INERTIA IXZ   = 14.079457
+>> VEHICLE INERTIA IYZ   = 0.095886
+>> VEHICLE MASS       = 2380.446656
+>> DRIVER MASS        = 0.000000
+>> FUEL MASS          = 0.000000
+>> VEHICLE WEIGHT     = 2380.446656
+>> CHASSIS CG GLOBAL X  = -1.250460
+>> CHASSIS CG GLOBAL Y  = -0.000030
+>> CHASSIS CG GLOBAL Z  = 0.644409
+>> CHASSIS CG LOCAL X = -1.250460
+>> CHASSIS CG LOCAL Y = -0.000030
+>> CHASSIS CG LOCAL Z = 0.644409
+
+
+<> FRONT LEFT  SUSPENSION SETUP CONDITIONS :
+
+>> WEIGHT             = 0.000000
+>> TIRE RADIUS        = 0.000000
+>> TOE ANGLE          = 0.004456
+>> CAMBER ANGLE       = -0.016332
+>> PIN HEIGHT         = 0.000000
+>> RIDE HEIGHT        = 0.246000
+
+
+<> FRONT RIGHT  SUSPENSION SETUP CONDITIONS :
+
+>> WEIGHT             = 0.000000
+>> TIRE RADIUS        = 0.000000
+>> TOE ANGLE          = 0.004474
+>> CAMBER ANGLE       = -0.016335
+>> PIN HEIGHT         = 0.000000
+>> RIDE HEIGHT        = 0.246000
+
+
+<> REAR LEFT  SUSPENSION SETUP CONDITIONS :
+
+>> WEIGHT             = 0.000000
+>> TIRE RADIUS        = 0.000000
+>> TOE ANGLE          = 0.003156
+>> CAMBER ANGLE       = -0.023495
+>> PIN HEIGHT         = -0.000000
+>> RIDE HEIGHT        = 0.288200
+
+
+<> REAR RIGHT  SUSPENSION SETUP CONDITIONS :
+
+>> WEIGHT             = 0.000000
+>> TIRE RADIUS        = 0.000000
+>> TOE ANGLE          = 0.003155
+>> CAMBER ANGLE       = -0.023507
+>> PIN HEIGHT         = -0.000000
+>> RIDE HEIGHT        = 0.288200
+
+======================================
+=           VI/CarRealTime           =
+=      VEHICLE SETUP STATUS REPORT   =
+======================================
+
+Before Setup
+## SIMULATION TIME    = 0.000000
+
+## MODEL UNITS        :
+## LENGTH             = METER
+## MASS               = KILOGRAM
+## TIME               = SECOND
+## FORCE              = NEWTON
+## ANGLE              = RADIAN
+
+<> VEHICLE GLOBAL CONDITIONS :
+>> VEHICLE CG ABS X   = -1.267246
+>> VEHICLE CG ABS Y   = -0.000037
+>> VEHICLE CG HEIGHT  = 0.624394
+>> VEHICLE INERTIA IXX   = 1032.013501
+>> VEHICLE INERTIA IYY   = 4190.166510
+>> VEHICLE INERTIA IZZ   = 4627.425300
+>> VEHICLE INERTIA IXY   = 0.141474
+>> VEHICLE INERTIA IXZ   = 13.486422
+>> VEHICLE INERTIA IYZ   = 0.095643
+>> VEHICLE MASS       = 2380.446656
+>> DRIVER MASS        = 0.000000
+>> FUEL MASS          = 0.000000
+>> VEHICLE WEIGHT     = 2380.446656
+>> CHASSIS CG GLOBAL X  = -1.250319
+>> CHASSIS CG GLOBAL Y  = -0.000041
+>> CHASSIS CG GLOBAL Z  = 0.656333
+>> CHASSIS CG LOCAL X = -1.250460
+>> CHASSIS CG LOCAL Y = -0.000030
+>> CHASSIS CG LOCAL Z = 0.644409
+
+
+<> FRONT LEFT  SUSPENSION SETUP CONDITIONS :
+
+>> WEIGHT             = 658.365934
+>> WEIGHT RATIO%      = 27.654355
+>> TIRE RADIUS        = 0.354707
+>> TOE ANGLE          = 0.005824
+>> CAMBER ANGLE       = -0.007898
+>> PIN HEIGHT         = -0.026715
+>> RIDE HEIGHT        = 0.257485
+
+
+<> FRONT RIGHT  SUSPENSION SETUP CONDITIONS :
+
+>> WEIGHT             = 658.366258
+>> WEIGHT RATIO%      = 27.654369
+>> TIRE RADIUS        = 0.354707
+>> TOE ANGLE          = 0.005835
+>> CAMBER ANGLE       = -0.007904
+>> PIN HEIGHT         = -0.026697
+>> RIDE HEIGHT        = 0.257475
+
+
+<> REAR LEFT  SUSPENSION SETUP CONDITIONS :
+
+>> WEIGHT             = 531.931673
+>> WEIGHT RATIO%      = 22.343543
+>> TIRE RADIUS        = 0.360909
+>> TOE ANGLE          = 0.002270
+>> CAMBER ANGLE       = -0.013305
+>> PIN HEIGHT         = -0.015151
+>> RIDE HEIGHT        = 0.300678
+
+
+<> REAR RIGHT  SUSPENSION SETUP CONDITIONS :
+
+>> WEIGHT             = 532.031444
+>> WEIGHT RATIO%      = 22.347734
+>> TIRE RADIUS        = 0.360904
+>> TOE ANGLE          = 0.002275
+>> CAMBER ANGLE       = -0.013314
+>> PIN HEIGHT         = -0.015141
+>> RIDE HEIGHT        = 0.300678
+
+======================================
+=           VI/CarRealTime           =
+=      VEHICLE SETUP STATUS REPORT   =
+======================================
+
+After Setup
+## SIMULATION TIME    = 5.455000
+
+## MODEL UNITS        :
+## LENGTH             = METER
+## MASS               = KILOGRAM
+## TIME               = SECOND
+## FORCE              = NEWTON
+## ANGLE              = RADIAN
+
+<> VEHICLE GLOBAL CONDITIONS :
+>> VEHICLE CG ABS X   = -1.269747
+>> VEHICLE CG ABS Y   = -0.000027
+>> VEHICLE CG HEIGHT  = 0.614807
+>> VEHICLE INERTIA IXX   = 1030.961688
+>> VEHICLE INERTIA IYY   = 4189.628617
+>> VEHICLE INERTIA IZZ   = 4628.692021
+>> VEHICLE INERTIA IXY   = 0.141520
+>> VEHICLE INERTIA IXZ   = 13.101005
+>> VEHICLE INERTIA IYZ   = 0.095893
+>> VEHICLE MASS       = 2380.446656
+>> DRIVER MASS        = 0.000000
+>> FUEL MASS          = 0.000000
+>> VEHICLE WEIGHT     = 2380.446656
+>> CHASSIS CG GLOBAL X  = -1.252827
+>> CHASSIS CG GLOBAL Y  = -0.000030
+>> CHASSIS CG GLOBAL Z  = 0.645600
+>> CHASSIS CG LOCAL X = -1.250460
+>> CHASSIS CG LOCAL Y = -0.000030
+>> CHASSIS CG LOCAL Z = 0.644409
+
+
+<> FRONT LEFT  SUSPENSION SETUP CONDITIONS :
+
+>> WEIGHT             = 658.438483
+>> WEIGHT RATIO%      = 27.651747
+>> TIRE RADIUS        = 0.354704
+>> TOE ANGLE          = 0.005676
+>> CAMBER ANGLE       = -0.008937
+>> PIN HEIGHT         = -0.027198
+>> RIDE HEIGHT        = 0.251927
+
+
+<> FRONT RIGHT  SUSPENSION SETUP CONDITIONS :
+
+>> WEIGHT             = 658.496975
+>> WEIGHT RATIO%      = 27.654204
+>> TIRE RADIUS        = 0.354701
+>> TOE ANGLE          = 0.005689
+>> CAMBER ANGLE       = -0.008938
+>> PIN HEIGHT         = -0.027122
+>> RIDE HEIGHT        = 0.251926
+
+
+<> REAR LEFT  SUSPENSION SETUP CONDITIONS :
+
+>> WEIGHT             = 532.111856
+>> WEIGHT RATIO%      = 22.346541
+>> TIRE RADIUS        = 0.360900
+>> TOE ANGLE          = 0.002766
+>> CAMBER ANGLE       = -0.018721
+>> PIN HEIGHT         = -0.017773
+>> RIDE HEIGHT        = 0.283479
+
+
+<> REAR RIGHT  SUSPENSION SETUP CONDITIONS :
+
+>> WEIGHT             = 532.134871
+>> WEIGHT RATIO%      = 22.347508
+>> TIRE RADIUS        = 0.360899
+>> TOE ANGLE          = 0.002766
+>> CAMBER ANGLE       = -0.018734
+>> PIN HEIGHT         = -0.017772
+>> RIDE HEIGHT        = 0.283479
+
+======================================
+=           VI/CarRealTime           =
+=      VEHICLE SETUP STATUS REPORT   =
+======================================
+
+Before Running
+## SIMULATION TIME    = 0.000000
+
+## MODEL UNITS        :
+## LENGTH             = METER
+## MASS               = KILOGRAM
+## TIME               = SECOND
+## FORCE              = NEWTON
+## ANGLE              = RADIAN
+
+<> VEHICLE GLOBAL CONDITIONS :
+>> VEHICLE CG ABS X   = -1.269740
+>> VEHICLE CG ABS Y   = -0.000027
+>> VEHICLE CG HEIGHT  = 0.614857
+>> VEHICLE INERTIA IXX   = 1030.966394
+>> VEHICLE INERTIA IYY   = 4189.633348
+>> VEHICLE INERTIA IZZ   = 4628.688595
+>> VEHICLE INERTIA IXY   = 0.141522
+>> VEHICLE INERTIA IXZ   = 13.103441
+>> VEHICLE INERTIA IYZ   = 0.095887
+>> VEHICLE MASS       = 2380.446656
+>> DRIVER MASS        = 0.000000
+>> FUEL MASS          = 0.000000
+>> VEHICLE WEIGHT     = 2380.446656
+>> CHASSIS CG GLOBAL X  = -1.252820
+>> CHASSIS CG GLOBAL Y  = -0.000030
+>> CHASSIS CG GLOBAL Z  = 0.645655
+>> CHASSIS CG LOCAL X = -1.250460
+>> CHASSIS CG LOCAL Y = -0.000030
+>> CHASSIS CG LOCAL Z = 0.644409
+
+
+<> FRONT LEFT  SUSPENSION SETUP CONDITIONS :
+
+>> WEIGHT             = 658.254724
+>> WEIGHT RATIO%      = 27.649639
+>> TIRE RADIUS        = 0.354713
+>> TOE ANGLE          = 0.005678
+>> CAMBER ANGLE       = -0.008923
+>> PIN HEIGHT         = -0.027246
+>> RIDE HEIGHT        = 0.252012
+
+
+<> FRONT RIGHT  SUSPENSION SETUP CONDITIONS :
+
+>> WEIGHT             = 658.312039
+>> WEIGHT RATIO%      = 27.652047
+>> TIRE RADIUS        = 0.354710
+>> TOE ANGLE          = 0.005691
+>> CAMBER ANGLE       = -0.008924
+>> PIN HEIGHT         = -0.027171
+>> RIDE HEIGHT        = 0.252012
+
+
+<> REAR LEFT  SUSPENSION SETUP CONDITIONS :
+
+>> WEIGHT             = 532.055874
+>> WEIGHT RATIO%      = 22.348724
+>> TIRE RADIUS        = 0.360903
+>> TOE ANGLE          = 0.002765
+>> CAMBER ANGLE       = -0.018716
+>> PIN HEIGHT         = -0.017780
+>> RIDE HEIGHT        = 0.283495
+
+
+<> REAR RIGHT  SUSPENSION SETUP CONDITIONS :
+
+>> WEIGHT             = 532.076499
+>> WEIGHT RATIO%      = 22.349590
+>> TIRE RADIUS        = 0.360902
+>> TOE ANGLE          = 0.002765
+>> CAMBER ANGLE       = -0.018729
+>> PIN HEIGHT         = -0.017779
+>> RIDE HEIGHT        = 0.283495
+
+
+======================================
+=           VI-CarRealTime           =
+=    VEHICLE SIMULATION STATISTICS   =
+======================================
+
+>> LAP TIME           = 5.551000 sec
+>> LAT ACCEL MAX      = 0.985061 G
+>> LAT ACCEL MIN      = -0.889666 G
+>> LON ACCEL MAX      = 0.994569 G
+>> LON ACCEL MIN      = -0.194165 G
+>> LON SPEED MAX      = 99.999408 km/h
+>> LON SPEED MIN      = -35.738756 km/h
+>> LON SPEED AVG      = 43.747210 km/h
+>> STEERING MAX       = 3.782366 rad
+>> STEERING MIN       = -3.757234 rad

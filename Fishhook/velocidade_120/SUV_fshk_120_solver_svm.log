@@ -1,0 +1,204 @@
+
+========================================
+=            VI-CarRealTime            =
+========================================
+  VERSION : 20.2
+  REVISION: 51012//tags/release/20/20.2/RTM/software
+  BUILT ON: phoenix/04-Feb-21
+========================================
+
+
+Event data is being read from input XML file...
+
+Performing the simulation: SUV_fshk_120.
+
+
+Initializing powertrain / driveline...
+Done.
+
+Initializing aero force...
+Done.
+
+Initializing tires...
+Loading road data file... (file=C:/PROGRA~1/VI-grade/VI-CAR~1/acarrt/CARREA~1.CDB/roads.tbl/flat.rdf)
+
+road file total reading time = 0.002s
+
+FLAT road model has been initialized...
+
+initializing VI-TIRE Pacejka 96/02 model... OK
+
+initializing VI-TIRE Pacejka 96/02 model... OK
+
+initializing VI-TIRE Pacejka 96/02 model... OK
+
+initializing VI-TIRE Pacejka 96/02 model... OK
+
+Done.
+
+Initializing driver...
+
+Done.
+
+
+Solving for static equilibrium...
+
+
+Performing Vehicle Setup...
+
+
+Solving for static equilibrium...
+
+Static equilibrium has been achieved.
+Elapsed Simulation Time:  6.262 (sec).
+Elapsed Clock Time:  0.061 (sec).
+
+
+Setup Completed.
+
+Performing dynamic simulation...
+
+Simulation Progress (percent complete):
+0                      50                      100
+--
+ -- INFO --  
+ -- INFO -- <<<< VI-Driver MANEUVER INFO >>>>
+ -- INFO -- Maneuver 1 (MANEUVER_1) end condition(s) reached...
+ -- INFO -- (maneuver time = 1.271s / simulation time = 1.271s)
+ -- INFO --  
+ -- INFO -- Satisfied end condition info:
+ -- INFO -- == condition 1 ==
+ -- INFO -- name            : MANEUVER_1_END_COND_BLOCK
+ -- INFO -- ID              : 0
+ -- INFO -- test type       : |>>|
+ -- INFO -- reference value : 3.27490020186
+ -- INFO -- tolerance value : 0
+ -- INFO -- measure value   : 3.279726
+ -- INFO --  
+ -- INFO -- 
+ -- INFO --  
+ -- INFO -- <<<< VI-Driver MANEUVER INFO >>>>
+ -- INFO -- Switching from maneuver 1 to maneuver 2
+ -- INFO -- (MANEUVER_1 to MANEUVER_2)
+ -- INFO --  
+ -- INFO -- 
+
+ -- INFO --  
+ -- INFO -- <<<< VI-Driver MANEUVER INFO >>>>
+ -- INFO -- Maneuver 2 (MANEUVER_2) end condition(s) reached...
+ -- INFO -- (maneuver time = 0.04s / simulation time = 1.311s)
+ -- INFO --  
+ -- INFO -- Satisfied end condition info:
+ -- INFO -- == condition 1 ==
+ -- INFO -- name            : MANEUVER_2_END_COND_BLOCK
+ -- INFO -- ID              : 0
+ -- INFO -- test type       : |<=|
+ -- INFO -- reference value : 0.02617
+ -- INFO -- tolerance value : 0
+ -- INFO -- measure value   : 0.0145839795214
+ -- INFO --  
+ -- INFO -- 
+ -- INFO --  
+ -- INFO -- <<<< VI-Driver MANEUVER INFO >>>>
+ -- INFO -- Switching from maneuver 2 to maneuver 3
+ -- INFO -- (MANEUVER_2 to MANEUVER_3)
+ -- INFO --  
+ -- INFO -- 
+-
+ -- INFO --  
+ -- INFO -- <<<< VI-Driver MANEUVER INFO >>>>
+ -- INFO -- Maneuver 3 (MANEUVER_3) end condition(s) reached...
+ -- INFO -- (maneuver time = 0.54s / simulation time = 1.851s)
+ -- INFO --  
+ -- INFO -- Satisfied end condition info:
+ -- INFO -- == condition 1 ==
+ -- INFO -- name            : MANEUVER_3_END_COND_BLOCK
+ -- INFO -- ID              : 0
+ -- INFO -- test type       : <<
+ -- INFO -- reference value : -3.27490020186
+ -- INFO -- tolerance value : 0.01
+ -- INFO -- measure value   : -3.380254
+ -- INFO --  
+ -- INFO -- 
+ -- INFO --  
+ -- INFO -- <<<< VI-Driver MANEUVER INFO >>>>
+ -- INFO -- Switching from maneuver 3 to maneuver 4
+ -- INFO -- (MANEUVER_3 to MANEUVER_4)
+ -- INFO --  
+ -- INFO -- 
+------
+ -- INFO --  
+ -- INFO -- <<<< VI-Driver MANEUVER INFO >>>>
+ -- INFO -- Maneuver 4 (MANEUVER_4) end condition(s) reached...
+ -- INFO -- (maneuver time = 3s / simulation time = 4.851s)
+ -- INFO --  
+ -- INFO -- Satisfied end condition info:
+ -- INFO -- == condition 1 ==
+ -- INFO -- name            : MANEUVER_4_END_COND_BLOCK
+ -- INFO -- ID              : 0
+ -- INFO -- test type       : >>
+ -- INFO -- reference value : 3
+ -- INFO -- tolerance value : 0
+ -- INFO -- measure value   : 3
+ -- INFO --  
+ -- INFO -- 
+ -- INFO --  
+ -- INFO -- <<<< VI-Driver MANEUVER INFO >>>>
+ -- INFO -- Switching from maneuver 4 to maneuver 5
+ -- INFO -- (MANEUVER_4 to MANEUVER_5)
+ -- INFO --  
+ -- INFO -- 
+-
+ -- INFO --  
+ -- INFO -- <<<< VI-Driver MANEUVER INFO >>>>
+ -- INFO -- Maneuver 5 (MANEUVER_5) end condition(s) reached...
+ -- INFO -- (maneuver time = 0.55s / simulation time = 5.401s)
+ -- INFO --  
+ -- INFO -- Satisfied end condition info:
+ -- INFO -- == condition 1 ==
+ -- INFO -- name            : MANEUVER_5_END_COND_BLOCK
+ -- INFO -- ID              : 0
+ -- INFO -- test type       : >>
+ -- INFO -- reference value : 0
+ -- INFO -- tolerance value : 0.01
+ -- INFO -- measure value   : -0.00347199999849
+ -- INFO --  
+ -- INFO -- 
+ -- INFO --  
+ -- INFO -- <<<< VI-Driver MANEUVER INFO >>>>
+ -- INFO -- ==   LAST MANEUVER COMPLETED   ==
+ -- INFO -- == DRIVER HAS BEEN DEACTIVATED ==
+ -- INFO --  
+ -- INFO -- 
+
+
+A Driving-Machine end condition was triggered: simulation
+terminated prior to simulation abort time.
+
+======================================
+=           VI-CarRealTime           =
+=    VEHICLE SIMULATION STATISTICS   =
+======================================
+
+ --- Simulation Statistics ---
+>> LAP TIME           = 5.401000 sec
+>> LAT ACCEL MAX      = 0.985005 G
+>> LAT ACCEL MIN      = -0.872463 G
+>> LON ACCEL MAX      = 0.894695 G
+>> LON ACCEL MIN      = -0.235241 G
+>> LON SPEED MAX      = 119.999074 km/h
+>> LON SPEED MIN      = -55.908795 km/h
+>> LON SPEED AVG      = 48.915209 km/h
+>> STEERING MAX       = 3.279726 rad
+>> STEERING MIN       = -3.380254 rad
+
+
+Writing output to file. Please Wait ...
+
+
+Elapsed Simulation Time:  5.401 (sec).
+Elapsed Clock Time:  0.539 (sec).
+Computational Efficiency:  10.020 (sim. sec)/(sec).
+
+
+Simulation is complete.
